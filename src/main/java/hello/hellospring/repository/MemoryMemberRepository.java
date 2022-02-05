@@ -1,9 +1,11 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository  implements MemberRepository{
 
     //값 저장위해 map 생성 : 어딘가에 값이 저장되어 있어야하니까 map사용
